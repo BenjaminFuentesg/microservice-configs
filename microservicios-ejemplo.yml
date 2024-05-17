@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    hikari:
+      maximum-pool-size: '5'
+      connection-timeout: '20000'
+    url: jdbc:mysql://localhost:3307/company-practique
+    password: '123456'
